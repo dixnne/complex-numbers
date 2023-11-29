@@ -1,0 +1,45 @@
+#bootstrap-override.bg-color{
+    background-color: #FCF5ED;
+}
+
+
+#bootstrap-override .bg-color1{
+    background-color: #FCF5ED;
+}
+
+#bootstrap-override .bg-color2{
+    background-color: #F4BF96;
+}
+
+#bootstrap-override .bg-color3{
+    background-color: #CE5A67;
+}
+
+#bootstrap-override .bg-color4{
+    background-color: #1F1717;
+}
+
+#bootstrap-override .color1{
+    color: #FCF5ED;
+}
+
+#bootstrap-override .color2{
+    color: #F4BF96;
+}
+
+#bootstrap-override .color3{
+    color: #CE5A67;
+}
+
+#bootstrap-override .color4{
+    color: #1F1717;
+}
+
+#bootstrap-override #navbar nav.navbar{
+    border-bottom-color: #1F1717 !important;
+}
+
+#bootstrap-override #angle-box{
+    border-bottom: 4px solid #1F1717;
+    border-left: 4px solid #1F1717;
+}

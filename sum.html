@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Números Complejos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body id="bootstrap-override" class="bg-color">
+        <section id="navbar" class="">
+            <div class="container mt-3">
+                <nav class="navbar navbar-expand-lg bg-color3 rounded-5 border-bottom border-3" aria-label="Twelfth navbar example">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-md-between align-items-center px-5 py-2" id="navbarsExample10">
+                            <span class="h3 color1">Números Complejos</span>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./conversion.html">Conversión</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./graph.html">Gráfica</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" aria-current="page" href="./operations.html" data-bs-toggle="dropdown" aria-expanded="false">Operaciones</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./sum.html">Suma</a></li>
+                                    <li><a class="dropdown-item" href="./multiplication.html">Multiplicación</a></li>
+                                    <li><a class="dropdown-item" href="./division.html">División</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="row align-items-center justify-content-center mt-5 px-5 bg-color2 rounded-3">
+            <div class="p-4 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-center justify-content-center">
+                    <span class="color4 h4">Primer Número</span>
+                    <form action="" class="bg-color1 p-3 d-flex rounded-3 mb-3 w-100">
+                        <input id="sum-sign1" class="form-control form-control-lg w-25 mx-2" type="text" placeholder="+/-" aria-label="+/-">
+                        <span class="p-2 h1">(</span>
+                        <input id="sum-real1" class="form-control form-control-lg w-50" type="number" placeholder="Real" aria-label="Real">
+                        <input id="sum-jsign1" class="form-control form-control-lg w-25 mx-2" type="text" placeholder="+/-" aria-label="+/-">
+                        <span class="p-2 h1">j</span>
+                        <input id="sum-j1" class="form-control form-control-lg w-50" type="number" placeholder="Imaginario" aria-label="Imaginario">
+                        <span class="p-2 h1">)</span>
+                    </form>
+                </div>
+            </div>
+            <div class="p-4 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-center justify-content-center">
+                    <span class="color4 h4">Segundo Número</span>
+                    <form action="" class="bg-color1 p-3 d-flex rounded-3 mb-3 w-100">
+                        <input id="sum-sign2" class="form-control form-control-lg w-25 mx-2" type="text" placeholder="+/-" aria-label="+/-">
+                        <span class="p-2 h1">(</span>
+                        <input id="sum-real2" class="form-control form-control-lg w-50" type="number" placeholder="Real" aria-label="Real">
+                        <input id="sum-jsign2" class="form-control form-control-lg w-25 mx-2" type="text" placeholder="+/-" aria-label="+/-">
+                        <span class="p-2 h1">j</span>
+                        <input id="sum-j2" class="form-control form-control-lg w-50" type="number" placeholder="Imaginario" aria-label="Imaginario">
+                        <span class="p-2 h1">)</span>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center">
+                <button id="sum" class="btn btn-lg btn-light mb-5 w-50">Sumar</button>
+            </div>
+            <div class="container col-12 col-md-8 p-5 bg-color3 rounded-3 mb-5">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <span id="graph-title" class="h3 color4"></span>
+                    <div id="root" class="bg-color1 p-3 mb-3"></div>
+                    <span id="graph-theta" class="h3 color4"></span>
+                </div>
+            </div>
+        </section>
+        <section class="bg-color3 pt-3"><div class="bg-color4">
+            <div class="container">
+                <footer class="py-3">
+                  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="./index.html" class="nav-link px-2 color1">Home</a></li>
+                    <li class="nav-item"><a href="./conversion.html" class="nav-link px-2 color1">Conversión</a></li>
+                    <li class="nav-item"><a href="./graph.html" class="nav-link px-2 color1">Gráfica</a></li>
+                  </ul>
+                  <p class="text-center color1">Circuitos Eléctricos - ISC 2023 - Diana Narváez - Diana Dávila - Alejandro Cedeño</p>
+                </footer>
+            </div>
+        </div></section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="./vector.js" async defer></script>
+    </body>
+</html>
